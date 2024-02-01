@@ -14,8 +14,8 @@ import UpdateListing from "./Pages/UpdateListing";
 import Search from "./Pages/Search";
 
 function App() {
-  axios.defaults.baseURL = "https://real-estate-backend-ruby.vercel.app/api/"; // Set the base URL for Axios requests
-  // axios.defaults.baseURL = "http://localhost:4000/api/"; // Set the base URL for Axios requests
+  // axios.defaults.baseURL = "https://real-estate-backend-ruby.vercel.app/api/"; // Set the base URL for Axios requests
+  axios.defaults.baseURL = "http://localhost:4000/api/"; // Set the base URL for Axios requests
   axios.defaults.withCredentials = true;
   return (
     <div>
